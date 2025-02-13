@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab",
-        "bridge": "br-b674643aa1cd",
+        "bridge": "br-7f59df208540",
         "ipv4-subnet": "172.20.20.0/24",
         "ipv4-gw": "172.20.20.1",
         "ipv6-subnet": "2001:172:20:20::/64",
@@ -34,7 +34,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-b674643aa1cd",
+        "clab-mgmt-net-bridge": "br-7f59df208540",
         "clab-node-group": "",
         "clab-node-kind": "linux",
         "clab-node-lab-dir": "/vagrant/lab1/part1/clab-mod2-bgp/lan1",
@@ -63,7 +63,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-b674643aa1cd",
+        "clab-mgmt-net-bridge": "br-7f59df208540",
         "clab-node-group": "",
         "clab-node-kind": "linux",
         "clab-node-lab-dir": "/vagrant/lab1/part1/clab-mod2-bgp/lan2",
@@ -92,7 +92,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-b674643aa1cd",
+        "clab-mgmt-net-bridge": "br-7f59df208540",
         "clab-node-group": "",
         "clab-node-kind": "linux",
         "clab-node-lab-dir": "/vagrant/lab1/part1/clab-mod2-bgp/rtrA",
@@ -121,7 +121,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-b674643aa1cd",
+        "clab-mgmt-net-bridge": "br-7f59df208540",
         "clab-node-group": "",
         "clab-node-kind": "linux",
         "clab-node-lab-dir": "/vagrant/lab1/part1/clab-mod2-bgp/rtrB",
@@ -150,7 +150,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-b674643aa1cd",
+        "clab-mgmt-net-bridge": "br-7f59df208540",
         "clab-node-group": "",
         "clab-node-kind": "linux",
         "clab-node-lab-dir": "/vagrant/lab1/part1/clab-mod2-bgp/rtrC",
@@ -179,7 +179,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-b674643aa1cd",
+        "clab-mgmt-net-bridge": "br-7f59df208540",
         "clab-node-group": "",
         "clab-node-kind": "linux",
         "clab-node-lab-dir": "/vagrant/lab1/part1/clab-mod2-bgp/rtrD",
@@ -197,13 +197,13 @@
       "a": {
         "node": "lan1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:2d:04:94",
+        "mac": "aa:c1:ab:87:ec:a0",
         "peer": "z"
       },
       "z": {
         "node": "rtrA",
         "interface": "eth1",
-        "mac": "aa:c1:ab:21:4a:20",
+        "mac": "aa:c1:ab:95:e9:6c",
         "peer": "a"
       }
     },
@@ -211,13 +211,13 @@
       "a": {
         "node": "rtrA",
         "interface": "eth2",
-        "mac": "aa:c1:ab:e9:37:7d",
+        "mac": "aa:c1:ab:6c:d8:3f",
         "peer": "z"
       },
       "z": {
         "node": "rtrB",
         "interface": "eth1",
-        "mac": "aa:c1:ab:bd:99:92",
+        "mac": "aa:c1:ab:c0:9e:78",
         "peer": "a"
       }
     },
@@ -225,13 +225,13 @@
       "a": {
         "node": "rtrA",
         "interface": "eth3",
-        "mac": "aa:c1:ab:56:25:f1",
+        "mac": "aa:c1:ab:2f:94:e0",
         "peer": "z"
       },
       "z": {
         "node": "rtrC",
         "interface": "eth1",
-        "mac": "aa:c1:ab:59:ba:36",
+        "mac": "aa:c1:ab:e0:db:b3",
         "peer": "a"
       }
     },
@@ -239,13 +239,13 @@
       "a": {
         "node": "rtrD",
         "interface": "eth2",
-        "mac": "aa:c1:ab:b5:47:50",
+        "mac": "aa:c1:ab:77:7a:8e",
         "peer": "z"
       },
       "z": {
         "node": "rtrB",
         "interface": "eth2",
-        "mac": "aa:c1:ab:9c:88:8a",
+        "mac": "aa:c1:ab:8f:23:d8",
         "peer": "a"
       }
     },
@@ -253,13 +253,13 @@
       "a": {
         "node": "rtrD",
         "interface": "eth3",
-        "mac": "aa:c1:ab:1c:bf:fc",
+        "mac": "aa:c1:ab:fa:36:de",
         "peer": "z"
       },
       "z": {
         "node": "rtrC",
         "interface": "eth2",
-        "mac": "aa:c1:ab:c6:4c:bb",
+        "mac": "aa:c1:ab:9d:2f:09",
         "peer": "a"
       }
     },
@@ -267,13 +267,27 @@
       "a": {
         "node": "lan2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:b0:98:40",
+        "mac": "aa:c1:ab:36:a4:e9",
         "peer": "z"
       },
       "z": {
         "node": "rtrD",
         "interface": "eth1",
-        "mac": "aa:c1:ab:7a:cf:f1",
+        "mac": "aa:c1:ab:a8:c9:d1",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "rtrB",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:d2:e7:d1",
+        "peer": "z"
+      },
+      "z": {
+        "node": "rtrC",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:b8:b7:0a",
         "peer": "a"
       }
     }
